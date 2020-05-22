@@ -15,9 +15,9 @@ The template will display one icon if (selected), and a different icon if (!sele
 
 ### Action Plan:
 
-    w  Create Project using NG CLI
-    w Connect and push to GitHub
-    w Create Component using NG CLI
+    □ Create Project using NG CLI
+    □ Connect and push to GitHub
+    □ Create Component using NG CLI
     □ Add toggle field to component
     □ Add toggle method to component.
     □ Add simple HTML to template.
@@ -26,14 +26,14 @@ The template will display one icon if (selected), and a different icon if (!sele
 May include any or all of these topics:
 Section 4: Displaying Data and
 Handling Events
-• 38. Property Binding
-• 39. Attribute Binding
-• 40. Adding Bootstrap
-• 41. Class Binding
-• 42. Style Binding
-• 43. Event Binding
-• 44. Event Filtering
-• 45. Template Variables
-• 46. Two-way Binding
-• 47. Pipes
-• 48. Custom Pipes
+• 38. Property Binding<br>
+• 39. Attribute Binding<br>
+• 40. Adding Bootstrap<br>
+• 41. Class Binding<br>
+• 42. Style Binding<br>
+• 43. Event Binding<br>
+• 44. Event Filtering<br>
+• 45. Template Variables<br>
+• 46. Two-way Binding<br>
+• 47. Pipes<br>
+• 48. Custom Pipes<br>
