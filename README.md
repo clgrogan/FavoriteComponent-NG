@@ -1,27 +1,39 @@
 # FavoriteNg
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
+## Exercise 2
 
-## Development server
+### Favorite Component Displaying Data & Handling Events
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Exercise to create a component that allows selection a favorite icon and toggling.
+I. The instructor suggested using the bootstrap components glyphicons. This was dropped in v4
+a. I may just use (HTML text && || color) || FontAwesome.
 
-## Code scaffolding
+Looks like a simple toggle that could use a boolean 'selected' field to track in the component.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The template will need to capture the click event and toggle the selected field value.
+The template will display one icon if (selected), and a different icon if (!selected).
 
-## Build
+### Action Plan:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+    w  Create Project using NG CLI
+    w Connect and push to GitHub
+    w Create Component using NG CLI
+    □ Add toggle field to component
+    □ Add toggle method to component.
+    □ Add simple HTML to template.
+    □ Add to index to display
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+May include any or all of these topics:
+Section 4: Displaying Data and
+Handling Events
+• 38. Property Binding
+• 39. Attribute Binding
+• 40. Adding Bootstrap
+• 41. Class Binding
+• 42. Style Binding
+• 43. Event Binding
+• 44. Event Filtering
+• 45. Template Variables
+• 46. Two-way Binding
+• 47. Pipes
+• 48. Custom Pipes

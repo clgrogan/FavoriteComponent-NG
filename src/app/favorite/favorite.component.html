@@ -1,0 +1,18 @@
+<header>
+  <h1>Favorite Demonstration</h1>
+  <p>
+    Exercise to create a component that allows selection of a favorite icon and
+    toggling the selection on and off with dynamic display.
+  </p>
+</header>
+<main>
+  <div [style.color]="favoriteSelected ? 'green' : 'red'">
+    <h1>
+      <i
+        (click)="toggleFavoriteSelected()"
+        class="{{ favoriteSelected ? 'fas' : 'far' }} fa-star"
+        >Favorite</i
+      >
+    </h1>
+  </div>
+</main>
