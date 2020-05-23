@@ -4,7 +4,7 @@
 
 ### Favorite Component Displaying Data & Handling Events
 
-<p>Exercise to create a component that allows the selection of a favorite icon and toggling.
+Exercise to create a component that allows the selection of a favorite icon and toggling.
 
 The instructor suggested using the bootstrap components glyphicons. This was dropped in v4
 a. I may just use (HTML text && || color) || FontAwesome.
@@ -13,8 +13,6 @@ Looks like a simple toggle that could use a boolean 'selected' field to track in
 
 The template will need to capture the click event and toggle the selected field value.
 The template will display one icon if (selected), and a different icon if (!selected).
-
-</P>
 
 ### Action Plan:
 
